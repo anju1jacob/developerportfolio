@@ -7,7 +7,7 @@ const education = [
     institution: "APJ Abdul Kalam Technological University",
     location: "Thiruvananthapuram, Kerala",
     period: "2016 – 2020",
-    achievements: ["GPA: 8.65/9.5"],
+    achievements: ["GPA: 8.65"],
     icon: GraduationCap,
     color: "#00d4ff",
   },

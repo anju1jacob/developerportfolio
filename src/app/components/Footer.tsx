@@ -4,7 +4,11 @@ import { Github, Linkedin, Mail, Code2, Heart, ArrowUp } from "lucide-react";
 const socialLinks = [
   { icon: Github, href: "https://github.com/anju1jacob/", label: "GitHub" },
   { icon: Linkedin, href: "https://www.linkedin.com/in/anju-jacob-35a591162/", label: "LinkedIn" },
-  { icon: Mail, href: "mailto:jacob.anju98@gmail.com", label: "Email" },
+    {
+  icon: Mail,
+  href: "https://mail.google.com/mail/?view=cm&fs=1&to=jacob.anju98@gmail.com",
+  label: "Email",
+}
 ];
 
 const navLinks = [
@@ -33,7 +37,7 @@ export function Footer() {
               <span className="font-bold text-foreground text-lg" style={{ fontFamily: "Outfit, sans-serif" }}>Anju Jacob</span>
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed max-w-xs">
-              Python Full Stack Developer building scalable web applications with Django, FastAPI, and React.
+              Python Full Stack Developer building scalable web applications with Django, RESTAPI, and Angular.
             </p>
           </div>
 

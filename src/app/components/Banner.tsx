@@ -13,7 +13,12 @@ const roles = [
 const socialLinks = [
   { icon: Github, href: "https://github.com/anju1jacob/", label: "GitHub", color: "#ffffff" },
   { icon: Linkedin, href: "https://www.linkedin.com/in/anju-jacob-35a591162/", label: "LinkedIn", color: "#0a66c2" },
-  { icon: Mail, href: "mailto:jacob.anju98@gmail.com", label: "Email", color: "#00d4ff" },
+  {
+  icon: Mail,
+  href: "https://mail.google.com/mail/?view=cm&fs=1&to=jacob.anju98@gmail.com",
+  label: "Email",
+  color: "#00d4ff",
+}
 ];
 
 function TypeWriter({ texts }: { texts: string[] }) {

@@ -48,8 +48,8 @@ export function About() {
               <div className="pl-6 space-y-4">
                 <p className="text-secondary-foreground text-lg leading-relaxed">
                   I&apos;m a passionate <span className="text-primary font-medium">Python Full Stack Developer</span> 
-                  over 1.5+ years of experience building scalable web applications using Python, Django, Angular, and PostgreSQL.
-                </p>
+                   over 1.5+ years of experience building scalable web applications using Python, Django, Angular, and PostgreSQL.
+                </p> 
                 <p className="text-secondary-foreground text-lg leading-relaxed">
                   I specialize in backend development, REST API design, and full-stack business applications,
                    with hands-on experience in ERP systems and workflow automation.
@@ -65,7 +65,7 @@ export function About() {
                 { label: "Location", value: "Kottayam, Kerala, India" },
                 { label: "Email", value: "jacob.anju98@gmail.com" },
                 { label: "Availability", value: "Open to offers" },
-                { label: "Languages", value: "English, German A2" },
+                { label: "Languages", value: "Malayalam ,English, Hindi" },
               ].map((fact, i) => (
                 <div key={i} className="p-4 rounded-xl border border-border bg-card/50">
                   <p className="text-muted-foreground text-xs uppercase tracking-wider mb-1">{fact.label}</p>

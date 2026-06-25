@@ -1,11 +1,20 @@
+# Anju Jacob Portfolio
 
-  # Portfolio website
+A modern and responsive personal portfolio website showcasing my skills, experience, projects, and professional journey as a Python Full Stack Developer.
 
-  This is a code bundle for Portfolio website. The original project is available at https://www.figma.com/design/U7ZnDPwUNZolYTcNLCAjzZ/Portfolio-website.
+🌐 **Live Demo:** https://portfolioanju.netlify.app
 
-  ## Running the code
+## About
 
-  Run `npm i` to install the dependencies.
+I'm **Anju Jacob**, a Python Full Stack Developer with 1.5+ years of experience in building scalable web applications using Python, Django, Angular, and PostgreSQL.
 
-  Run `npm run dev` to start the development server.
+This portfolio highlights:
+
+* Professional experience
+* Technical skills
+* Featured projects
+* Education
+* Contact information
+
+
   

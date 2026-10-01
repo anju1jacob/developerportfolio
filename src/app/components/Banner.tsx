@@ -133,7 +133,7 @@ export function Banner() {
                 transition={{ delay: 0.8 }}
                 className="text-secondary-foreground text-lg leading-relaxed mb-10 max-w-lg"
               >
-                Enthusiastic and dedicated Python Full Stack Developer with 1.5+ years of experience in designing and
+                Enthusiastic and dedicated Python Full Stack Developer with 2 years of experience in designing and
 developing scalable web applications using Python, Django, Angular, and PostgreSQL.  
               </motion.p>
 
@@ -248,7 +248,7 @@ developing scalable web applications using Python, Django, Angular, and PostgreS
                 transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
                 className="absolute -left-8 top-1/3 bg-card border border-border rounded-xl px-4 py-2 shadow-xl"
               >
-                <p className="text-primary font-bold text-xl" style={{ fontFamily: "Outfit, sans-serif" }}>1.5+</p>
+                <p className="text-primary font-bold text-xl" style={{ fontFamily: "Outfit, sans-serif" }}>2</p>
                 <p className="text-muted-foreground text-xs">Years Exp.</p>
               </motion.div>
 

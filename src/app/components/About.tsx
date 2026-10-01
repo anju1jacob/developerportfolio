@@ -14,7 +14,7 @@ const skills = [
 const proficiencies = [
   { label: "Python / Django", pct: 95 },
   { label: "REST API Development", pct: 88 },
-  { label: "Angular / JavaScript ", pct: 85 },
+  { label: "Angular / JavaScript ", pct: 80 },
   { label: "PostgreSQL / MySQL", pct: 88 },
   { label: "Git & Version Control", pct: 82 },
 ];
@@ -48,7 +48,7 @@ export function About() {
               <div className="pl-6 space-y-4">
                 <p className="text-secondary-foreground text-lg leading-relaxed">
                   I&apos;m a passionate <span className="text-primary font-medium">Python Full Stack Developer</span> 
-                   over 1.5+ years of experience building scalable web applications using Python, Django, Angular, and PostgreSQL.
+                   with 2 years of experience building scalable web applications using Python, Django, Angular, and PostgreSQL.
                 </p> 
                 <p className="text-secondary-foreground text-lg leading-relaxed">
                   I specialize in backend development, REST API design, and full-stack business applications,

@@ -4,14 +4,34 @@ import { Github, ExternalLink, Star } from "lucide-react";
 const projects = [
   {
     title: "RomsnRaks – Grooming ERP System",
+    category: "Professional Project",
     description: "A comprehensive ERP platform for pet grooming businesses, designed to streamline appointment scheduling, customer and pet management, service workflows, and automated feedback collection. Developed and maintained backend modules for daily business operations.",
     tech: ["Python", "Django", "PostgreSQL", "REST API", "Angular", "Git"],
     stars: 284,
     image: "/images/ERP.jpg",
     color: "#00d4ff",
   },
+   {
+    title: "AI HelpDesk – AI-Powered Support API",
+    category: "Personal Project",
+    description:
+      "A production-oriented customer support API built with Django REST Framework. Includes JWT authentication, role-based access control, ticket workflows, service-layer architecture, selectors, filtering, search, pagination, automated tests, and AI-powered ticket summarization using an LLM provider.",
+    tech: [
+      "Python",
+      "Django",
+      "Django REST Framework",
+      "PostgreSQL",
+      "JWT",
+      "OpenAI",
+      "Pytest",
+    ],
+    image: "/images/ai-help-desk.jpg",
+    github: "https://github.com/anju1jacob/ai-helpdesk",
+    color: "#7c3aed",
+  },
   {
     title: "Job Portal Application",
+    category: "Internship Final Project",
     description: "A full-stack recruitment platform that enables recruiters to post jobs and manage applicants while allowing job seekers to search, apply, and track application status. Includes email notifications, profile management, and recruiter approval workflows.",
     tech: ["Python", "Django", "HTML", "CSS", "JavaScript", "Bootstrap", "SQLite"],
     stars: 176,
@@ -19,15 +39,7 @@ const projects = [
     github: "https://github.com/anju1jacob/Job-Portal-Application-python-Django",
     color: "#7c3aed",
   },
-  {
-    title: "Leave Management System",
-    description: "A full-stack Leave Management System built with Django REST Framework and Angular. It provides role-based access for Employees, Managers, and Admins with features like leave requests, approval workflows, leave balance tracking, JWT authentication, and email notifications.",
-    tech: ["Python", "Django REST Framework", "Angular", "PostgreSQL", "JWT", "Angular Material"],
-    stars: 312,
-    image: "/images/Leave Management System.jpg",
-    github: "https://github.com",
-    color: "#06b6d4",
-  },
+
 ];
 
 export function Projects() {
@@ -74,9 +86,25 @@ export function Projects() {
                   <div className="flex items-center gap-2 mb-4">
                     <span className="text-xs font-mono" style={{ color: project.color }}>0{index + 1}</span>
                     <div className="flex-1 h-px" style={{ background: `${project.color}30` }} />
-                    <div className="flex items-center gap-1 text-xs text-muted-foreground">
-                      <Star size={11} className="fill-yellow-400 stroke-yellow-400" />
-                      {project.stars}
+                    <div className="flex items-center gap-2 mb-4">
+                      <span
+                        className="text-xs font-mono"
+                        style={{ color: project.color }}
+                      >
+                        0{index + 1}
+                      </span>
+
+                      <div
+                        className="flex-1 h-px"
+                        style={{ background: `${project.color}30` }}
+                      />
+
+                      <span
+                        className="text-xs font-mono"
+                        style={{ color: project.color }}
+                      >
+                        {project.category}
+                      </span>
                     </div>
                   </div>
 

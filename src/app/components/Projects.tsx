@@ -91,7 +91,6 @@ export function Projects() {
                         className="text-xs font-mono"
                         style={{ color: project.color }}
                       >
-                        0{index + 1}
                       </span>
 
                       <div

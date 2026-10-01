@@ -280,7 +280,7 @@ developing scalable web applications using Python, Django, Angular, and PostgreS
           className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-6"
         >
           {[
-            { value: "1.5+", label: "Years Experience" },
+            { value: "2", label: "Years Experience" },
             { value: "3+", label: "Projects Completed" },
             { value: "3+", label: "Happy Clients" },
             { value: "10+", label: "Technologies" },
